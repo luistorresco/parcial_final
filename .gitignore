@@ -1,0 +1,38 @@
+# ==========================================
+# GIT IGNORE - SISTEMA CATASTRAL DE ANTIOQUIA
+# ==========================================
+
+# Compilados y Binarios (Carpeta de ejecutables)
+bin/
+*.class
+
+# Archivos temporales o de log
+*.log
+*.tmp
+*.temp
+
+# Archivos de Sistema
+.DS_Store
+Thumbs.db
+
+# Configuraciones de Visual Studio Code
+.vscode/
+!.vscode/launch.json
+!.vscode/tasks.json
+*.code-workspace
+
+# Configuraciones de Eclipse (si aplica)
+.metadata/
+.classpath
+.project
+.settings/
+
+# Configuraciones de IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+
+# Archivo de datos catastrales (opcional ignorarlo si es muy pesado, 
+# pero al ser portable y estar en el directorio raíz se puede conservar 
+# o ignorar según se desee. Lo dejamos opcional comentando la siguiente línea)
+# predios.csv
