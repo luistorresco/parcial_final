@@ -2,10 +2,6 @@
 # GIT IGNORE - SISTEMA CATASTRAL DE ANTIOQUIA
 # ==========================================
 
-# Compilados y Binarios (Carpeta de ejecutables)
-bin/
-*.class
-
 # Archivos temporales o de log
 *.log
 *.tmp
